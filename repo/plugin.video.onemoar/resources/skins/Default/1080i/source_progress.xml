@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <controls>
+        <control type="group">
+            <left>0</left>
+            <top>0</top>
+            <width>1920</width>
+            <height>1080</height>
+            <control type="image">
+                <description>background</description>
+                <texture>common/black.png</texture>
+            </control>
+            <control type="image">
+                <texture background="true">$INFO[Window.Property(onemoar.fanart)]</texture>
+                <animation effect="fade" start="20" end="20" time="0">WindowOpen</animation>
+            </control>
+        </control>
+        <control type="image">
+            <left>360r</left>
+            <top>15</top>
+            <width>50</width>
+            <height>50</height>
+            <texture>common/icon.png</texture>
+            <animation effect="fade" start="80" end="80" time="0">WindowOpen</animation>
+        </control>
+        <control type="label">
+            <left>300r</left>
+            <top>20</top>
+            <width>280</width>
+            <height>20</height>
+            <font>font12</font>
+            <label>[UPPERCASE]$ADDON[plugin.video.onemoar 40337][/UPPERCASE]</label>
+            <animation effect="fade" start="80" end="80" time="0">WindowOpen</animation>
+        </control>
+        <control type="image">
+            <top>635</top>
+            <centerleft>50%</centerleft>
+            <width max="480">auto</width>
+            <height>160</height>
+            <aspectratio>keep</aspectratio>
+            <texture background="true">$INFO[Window.Property(onemoar.clearlogo)]</texture>
+            <animation effect="fade" start="80" end="80" time="0">WindowOpen</animation>
+        </control>
+        <control type="image">
+            <centertop>715</centertop>
+            <centerleft>50%</centerleft>
+            <width>160</width>
+            <height>160</height>
+            <aspectratio>keep</aspectratio>
+            <texture colordiffuse="$INFO[Window().Property(onemoar.sources_highlight_color)]">common/spinner.gif</texture>
+            <animation effect="fade" start="75" end="75">Visible</animation>
+            <visible>String.IsEmpty(Window().Property(onemoar.clearlogo))</visible>
+        </control>
+        <control type="group">
+            <visible>!String.isEqual(Window.Property(onemoar.icononly),true)</visible>
+            <control type="textbox" id="2001">
+                <top>860</top>
+                <centerleft>50%</centerleft>
+                <width>640</width>
+                <height>200</height>
+                <font>font12</font>
+                <align>center</align>
+                <textcolor>FFB7B4BB</textcolor>
+            </control>
+            <control type="progress" id="5000">
+                <top>815</top>
+                <centerleft>50%</centerleft>
+                <width>480</width>
+                <height>25</height>
+                <reveal>true</reveal>
+            </control>
+        </control>
+    </controls>
+</window>

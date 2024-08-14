@@ -1,0 +1,26 @@
+
+[COLOR dodgerblue][B]Version 1.0.02g[/B][/COLOR]
+- Fix for Real Debrid api changes.
+- Added torrentdownload.
+- Removed magnetdl.
+- Removed adult results from search.
+- Tweak for colorpicker to avoid carrying 527 png images with addon.
+  Bless whoever organized the color array values.
+- Added "negative" boolean for timezone offset.
+
+
+[COLOR dodgerblue][B]Version 1.0.01[/B][/COLOR]
+- Adjusted some meta list items so as to make them more uniform.
+- Other changes/fixes.
+
+
+[COLOR dodgerblue][B]Version 1.0.0[/B][/COLOR]
+- Initial Release
+- This is an English language only addon.
+
+
+
+
+
+
+++

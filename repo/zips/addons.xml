@@ -290,4 +290,548 @@
     </extension>
 </addon>
 
+<addon id="repository.a4ksubtitles"
+       name="a4kSubtitles Repository"
+       version="1.1.1"
+       provider-name="Unknown">
+    <extension point="xbmc.addon.repository">
+        <dir>
+            <info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
+            <datadir>https://github.com/newt-sc/a4kSubtitles/archive</datadir>
+            <artdir>https://github.com/a4k-openproject/a4kSubtitles/releases/download/v0.0.13</artdir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>a4kSubtitles</summary>
+        <description>a4kSubtitles Repository</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.program.orderfavourites" name="Order Favourites" version="99.2.3" provider-name="doko">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <news>
+[COLOR lavender][B]Order Favourites[/B][/COLOR]
+[B]1.2.3:[/B]
+- Add-on metadata update with an icon fix.
+
+[B]1.2.2:[/B]
+- Ported the improvements from the Leia version to the Matrix version.
+
+[B]1.2.1:[/B]
+- Renamed "Save and exit" to "Save and reload", makes it clearer.
+- Added "Save and exit". Use this when save + reload happens to crash your Kodi. After saving, restart Kodi manually to see the changes.
+- Experimental Matrix version now available.
+
+[B]1.2.0:[/B]
+- Fixed a case when the add-on failed to read the favourites file because of Unicode strings.
+(Thanks to [I]msauers[/I] for the report.)
+- Changed the label and description of the 'Restart...' button to 'Restore...', which is
+clearer.
+
+[B]1.1.1:[/B]
+- Added menu items for a more traditional add-on UX.
+- Improved the profile reloading process.
+
+[B]1.1.0:[/B]
+- Improved the profile reloading process, it was crashing on Kodi 17.6.
+
+[B]1.0.4:[/B]
+- Safer handling of unicode text.
+- Optimizations, simplified the code even more.
+
+[B]1.0.3:[/B]
+- Added a proper custom dialog interface.
+- Greatly simplified the code, much faster to use.
+
+[B]1.0.2:[/B]
+- Fix for when the favorite item has unicode text.
+    </news>
+    <description lang="en">
+Lets you reorder the entries in your Favourites.
+Use this to organize your Favourites.
+    </description>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.EasyNews" name="EasyNews" version="5.0.1" provider-name=".[COLOR blue]X[/COLOR]unity">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Easynews</summary>
+    <description lang="en">Stream From EasyNews....Ported from original addon</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.909" name=" The[COLOR blue][B]9o9[/B][/COLOR]Repo" version="1.0.1" provider-name="Zaxxon709">
+    <extension point="xbmc.addon.repository" name="The9o9Repo">
+        <dir>
+            <info compressed="false">https://dr-venture.com/709/909repo/zips/addons.xml</info>
+            <checksum>https://dr-venture.com/709/909repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://dr-venture.com/709/909repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>The 9o9Repo</summary>
+        <description>Build Specific Add-ons Repository for 7o9</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.709" name=" The[COLOR FF0C5EB4][B]7o9[/B][/COLOR]Repo" version="1.0.2" provider-name="Zaxxon709">
+    <extension point="xbmc.addon.repository" name="The7o9Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/zaxxon/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zaxxon709/zaxxon/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Zaxxon709/zaxxon/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>The 7o9Repo</summary>
+        <description>7o9 Repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="repository.cocoscrapers" name="CocoScrapers Repository" version="1.0.0" provider-name="CocoScrapers">
+    <extension point="xbmc.addon.repository" name="CocoScrapers Repository">
+        <dir minversion="19.0">
+            <info compressed="false">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>CocoScrapers Repository</summary>
+        <description>Unofficial add-ons repository</description>
+    </extension>
+</addon>
+
+<addon id="repository.kodifitzwell" version="0.0.1" name="kodifitzwell repository" provider-name="kodifitzwell">
+    <extension point="xbmc.addon.repository" name="kodifitzwell repository">
+        <dir minversion="19.0.0">
+            <info compressed="false">https://kodifitzwell.github.io/repo/packages/addons.xml</info>
+            <checksum>https://kodifitzwell.github.io/repo/packages/addons.xml.md5</checksum>
+            <datadir zip="true">https://kodifitzwell.github.io/repo/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description>kodifitzwell repository</description>
+        <assets><icon>icon.png</icon></assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.affenity" name="afFENity" provider-name="kodifitzwell" version="1.0.02g">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.19.1"/>
+    </requires>
+    <extension library="resources/lib/affenity.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="resources/lib/service.py" point="xbmc.service"/>
+    <extension library="resources/lib/" point="xbmc.python.module"/>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en">Access your content from Easynews and Debrid Clouds.</summary>
+        <description lang="en">This add-on is intended for advanced Kodi users only. You must own the content of any media you play through this addon. This is an English language only add-on.</description>
+        <platform>all</platform>
+        <disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.</disclaimer>
+        <license/>
+        <assets>
+            <icon>resources/media/affenity_icon.png</icon>
+            <fanart>resources/media/affenity_fanart.jpg</fanart>
+        </assets>
+        <news>INFO: For latest changes see Changelog within Tools of add-on.</news>
+    </extension>
+</addon>
+
+<addon id="repository.beta.emby.kodi" name="Kodi Emby Beta Addons" version="1.0.10" provider-name="">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Kodi Emby Beta Addons Repository">
+		<dir>
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/</datadir>
+		</dir>
+		<dir minversion="19.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-nexus/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-nexus/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-nexus/</datadir>
+		</dir>
+		<dir minversion="18.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-matrix/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-matrix/</datadir>
+		</dir>
+		<dir minversion="17.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-leia/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-leia/</datadir>
+		</dir>
+		<dir minversion="16.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-krypton/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/beta-krypton/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi Emby Addon Repository</summary>
+		<description>This repo contains beta add-ons for Emby related support</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.emby.kodi" name="Kodi Emby Addons" version="1.0.7" provider-name="">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Kodi Emby Repository">
+		<dir>
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/repositories/</datadir>
+		</dir>
+		<dir minversion="19.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/nexus/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/nexus/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/nexus/</datadir>
+		</dir>		
+		<dir minversion="18.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/matrix/</datadir>
+		</dir>
+		<dir minversion="17.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/leia/</datadir>
+		</dir>
+		<dir minversion="16.999.0">
+			<info compressed="false">https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/addons.xml</info>
+			<checksum>https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://embydata.com/downloads/addons/xbmb3c/multi-repo/krypton/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi Emby Addon Repository</summary>
+		<description>This repo contains add-ons for Emby related support</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.video.onemoar" name="OneMoar" provider-name="kodifitzwell" version="4.06.01">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests"/>
+		<import addon="plugin.video.youtube" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="onemoar.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="resources\lib\context\addtoLibrary.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Add to Library</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.onemoar.addtoLibrary)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.onemoar/) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\addtoFavourite.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Add/Remove Favourite</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.onemoar.addtoFavourite)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.onemoar/) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\playTrailer.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Play Trailer</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.onemoar.playTrailer)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.onemoar/) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					[String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\playTrailerSelect.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Play Trailer (Select)</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.onemoar.playTrailerSelect)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.onemoar/) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					[String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\traktManager.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Trakt Manager</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.onemoar.traktManager)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.onemoar/) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\clearProviders.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Clear Providers</label>
+				<visible>
+					[!String.IsEmpty(Window(home).Property(context.onemoar.clearProviders)) +
+					String.StartsWith(ListItem.FolderPath,plugin://plugin.video.onemoar/?action=play) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]] |
+					[String.Contains(Container.FolderPath,videodb://) +
+					[String.Contains(Container.ListItem.Path,Window(home).Property(onemoar.movieLib.path)) | String.Contains(Container.ListItem.Path,Window(home).Property(onemoar.tvLib.path))] +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]]
+				</visible>
+			</item>
+			<item library="resources\lib\context\clearBookmark.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Clear Item Bookmark</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.onemoar.clearBookmark)) +
+					String.StartsWith(ListItem.FolderPath,plugin://plugin.video.onemoar/?action=play) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					ListItem.IsResumable +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\rescrape.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Rescrape Item</label>
+				<visible>
+					[!String.IsEmpty(Window(home).Property(context.onemoar.rescrape)) +
+					String.StartsWith(ListItem.FolderPath,plugin://plugin.video.onemoar/?action=play) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]]
+				</visible>
+			</item>
+			<item library="resources\lib\context\addLibtoFavourite.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Add/Remove Favourite</label>
+				<visible>
+					[String.Contains(Container.FolderPath,videodb://) | String.Contains(Container.ListItem.FolderPath,videodb://)] +
+					[String.Contains(Container.ListItem.Path,Window(home).Property(onemoar.movieLib.path)) | String.Contains(Container.ListItem.Path,Window(home).Property(onemoar.tvLib.path))] +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\libRescrape.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Rescrape Lib Item</label>
+				<visible>
+					[String.Contains(Container.FolderPath,videodb://) | String.Contains(Container.ListItem.FolderPath,videodb://)] +
+					[String.Contains(Container.ListItem.Path,Window(home).Property(onemoar.movieLib.path)) | String.Contains(Container.ListItem.Path,Window(home).Property(onemoar.tvLib.path))] +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\playFromHere.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Play from here</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.onemoar.playFromHere)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.onemoar/) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					String.IsEqual(ListItem.dbtype,episode)
+				</visible>
+			</item>
+			<item library="resources\lib\context\autoPlay.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Auto Play</label>
+				<visible>
+					String.IsEmpty(Window(home).Property(onemoar.autoPlay.enabled)) +
+					!String.IsEmpty(Window(home).Property(context.onemoar.autoPlay)) +
+					String.StartsWith(ListItem.FolderPath,plugin://plugin.video.onemoar/?action=play) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\sourceSelect.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Source Select</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(onemoar.autoPlay.enabled)) +
+					!String.IsEmpty(Window(home).Property(context.onemoar.sourceSelect)) +
+					String.StartsWith(ListItem.FolderPath,plugin://plugin.video.onemoar/?action=play) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\findSimilar.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Find Similar</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.onemoar.findSimilar)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.onemoar/) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					[String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\browseSeries.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Browse Series</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.onemoar.browseSeries)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.onemoar/) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\browseEpisodes.py">
+				<label>$INFO[Window(home).Property(context.onemoar.showOneMoar)]Browse Episodes</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.onemoar.browseEpisodes)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.onemoar/) +
+					String.IsEqual(ListItem.Property(isOneMoar_widget),true) +
+					String.IsEqual(ListItem.dbtype,episode)
+				</visible>
+			</item>
+		</menu>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup"/>
+	<extension point="xbmc.python.module" library="resources/lib/"/>
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>true</reuselanguageinvoker>
+		<summary lang="en">[COLOR FF37B6FF]OneMoar[/COLOR] - [I]"Just one more episode"[/I][CR]</summary>
+		<description lang="en">[B]OneMoar[/B][CR]We do not host any of the contents streamed. This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum/>
+		<website />
+		<source />
+		<disclaimer lang="en">The author of this addon does not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+			<fanart>resources/media/fanart.png</fanart>
+			<screenshot>resources/media/screenshot001.jpg</screenshot>
+			<screenshot>resources/media/screenshot002.jpg</screenshot>
+		</assets>
+		<news />
+	</extension>
+
+</addon>
+
+<addon id="repository.orion" version="5.0.0" name="Orion Repository" provider-name="Orion">
+	<extension point="xbmc.addon.repository" name="Orion Repository">
+		<dir>
+			<info compressed="false">https://repo.orionoid.com/addons.xml?v=5.0.0</info>
+			<checksum>https://repo.orionoid.com/addons.xml.md5?v=5.0.0</checksum>
+			<datadir zip="true">https://repo.orionoid.com</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Addon and Update Repository</summary>
+		<description lang="en">Orion is a system for caching search and scraping results for later reuse. Metadata and links on Orion are maintained by the community. Searches are cached so that subsequent users can quickly access the results without having to go through a lengthy scraping process themselves. The Orion Kodi addon does not provide any search or playback features, but it can easily be integrated into any other addon, website, or standalone program with minimal effort.</description>
+		<disclaimer lang="en">Orion does not create, host, or distribute any files or videos. Orion is a caching service providing low-level API access to a community-maintained storage of textual data. All metadata and links available through Orion are scraped, processed, and submitted by community users. Due to the volume, velocity, and complexity of the data, Orion cannot inspect or validate the content submitted by users. Data on Orion may therefore be inaccurate, out-dated, or in other ways unusable. Orion does not guarantee the validity or integrity of the data available through its API and does not take liability for any of the data submitted by its users. Users take the risk and are responsible for the manner in which they utilize the Orion API.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>https://orionoid.com</website>
+		<forum>https://support.orionoid.com</forum>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.gaia.core" version="6.1.0" name="Gaia Repository (Core)" provider-name="Gaia">
+	<extension point="xbmc.addon.repository" name="Gaia Repository (Core)">
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/gaiakodi/gaiamain/raw/master/addons.xml?v=6.1.0</info>
+			<checksum>https://github.com/gaiakodi/gaiamain/raw/master/addons.xml.md5?v=6.1.0</checksum>
+			<datadir zip="true">https://github.com/gaiakodi/gaiamain/raw/master/</datadir>
+		</dir>
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/gaiakodi/gaiamain/raw/master/common/addons.core.xml?v=6.1.0</info>
+			<checksum>https://github.com/gaiakodi/gaiamain/raw/master/common/addons.core.xml.md5?v=6.1.0</checksum>
+			<datadir zip="true">https://github.com/gaiakodi/gaiamain/raw/master/common/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Gaia Essential Repository</summary>
+		<description lang="en">The Gaia repository containing only essential addons. The repository only holds addons that are needed to install Gaia. Any other optional third-party addons that extended the functionality of Gaia must be installed manually or downloaded from the third-party repository.</description>
+		<disclaimer lang="en">Gaia and its developers are not affiliated with Kodi or any of the services used in the addon. Gaia and its developers do not create, host, or distribute any of the content displayed in the addon. Gaia simply searches publicly available sources for content. Gaia is, and always will be, free and open-source. None of its code or resources may be sold or redistributed for commercial purposes.</disclaimer>
+
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+
+		<website>https://gaiakodi.com</website>
+		<forum>https://gaiakodi.com/support</forum>
+
+		<assets>
+			<icon>resources/icon.png</icon>
+			<clearlogo>resources/clearlogo.png</clearlogo>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner>resources/banner.jpg</banner>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.gaia.full" version="6.1.0" name="Gaia Repository (Full)" provider-name="Gaia">
+	<extension point="xbmc.addon.repository" name="Gaia Repository (Full)">
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/gaiakodi/gaiamain/raw/master/addons.xml?v=6.1.0</info>
+			<checksum>https://github.com/gaiakodi/gaiamain/raw/master/addons.xml.md5?v=6.1.0</checksum>
+			<datadir zip="true">https://github.com/gaiakodi/gaiamain/raw/master/</datadir>
+		</dir>
+		<dir minversion="19.0.0">
+			<info compressed="false">https://github.com/gaiakodi/gaiamain/raw/master/common/addons.full.xml?v=6.1.0</info>
+			<checksum>https://github.com/gaiakodi/gaiamain/raw/master/common/addons.full.xml.md5?v=6.1.0</checksum>
+			<datadir zip="true">https://github.com/gaiakodi/gaiamain/raw/master/common/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Gaia Extended Repository</summary>
+		<description lang="en">The Gaia repository containing both essential and optional addons. The repository holds addons that are needed to install Gaia, but also has optional third-party addons that can be installed to extended the functionality of Gaia.</description>
+		<disclaimer lang="en">Gaia and its developers are not affiliated with Kodi or any of the services used in the addon. Gaia and its developers do not create, host, or distribute any of the content displayed in the addon. Gaia simply searches publicly available sources for content. Gaia is, and always will be, free and open-source. None of its code or resources may be sold or redistributed for commercial purposes.</disclaimer>
+
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+
+		<website>https://gaiakodi.com</website>
+		<forum>https://gaiakodi.com/support</forum>
+
+		<assets>
+			<icon>resources/icon.png</icon>
+			<clearlogo>resources/clearlogo.png</clearlogo>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner>resources/banner.jpg</banner>
+		</assets>
+	</extension>
+</addon>
+
 </addons>
