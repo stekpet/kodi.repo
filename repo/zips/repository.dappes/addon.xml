@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.dappe" name="Dappes Addons Repository" version="0.0.1" provider-name="Stekpet">
+<addon id="repository.dappes" name="Dappes Addons Repository" version="0.0.1" provider-name="Stekpet">
     <extension point="xbmc.addon.repository" name="Dappes Addons Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/stekpet/repository.dappes/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/stekpet/repository.dappes/master/repo/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/stekpet/repository.dappes/master/repo/zips/</datadir>
+			<hashes>false</hashes>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
